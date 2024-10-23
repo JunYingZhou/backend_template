@@ -31,6 +31,11 @@
             <artifactId>continew-starter-log-interceptor</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>top.continew</groupId>
+            <artifactId>top-continew-News</artifactId>
+        </dependency>
+
         <!-- 系统管理模块（存放系统管理模块相关功能，例如：部门管理、角色管理、用户管理等） -->
         <dependency>
             <groupId>top.continew</groupId>
@@ -61,6 +66,17 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

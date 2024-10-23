@@ -153,5 +153,9 @@
             <groupId>top.continew</groupId>
             <artifactId>continew-starter-json-jackson</artifactId>
         </dependency>
+        <dependency>
+            <groupId>top.continew</groupId>
+            <artifactId>continew-starter-core</artifactId>
+        </dependency>
     </dependencies>
 </project>

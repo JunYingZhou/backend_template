@@ -16,7 +16,6 @@
         <version>2.7.1</version>
     </parent>
 
-    <groupId>top.continew</groupId>
     <artifactId>continew-admin</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
@@ -29,6 +28,7 @@
         <module>continew-admin-system</module>
         <module>continew-admin-common</module>
         <module>continew-admin-extension</module>
+        <module>News</module>
     </modules>
 
     <properties>
@@ -73,6 +73,15 @@
                 <artifactId>continew-admin-generator</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+<!--            其他模块-->
+            <dependency>
+                <groupId>top.continew</groupId>
+                <artifactId>top-continew-News</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 

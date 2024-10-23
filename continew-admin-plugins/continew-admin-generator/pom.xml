@@ -11,4 +11,10 @@
 
     <artifactId>continew-admin-generator</artifactId>
     <description>代码生成器插件</description>
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
 </project>
